@@ -10,6 +10,8 @@ def find_min_in_nested_arrays(src)
     column_index = 0
     daily_low = 1000
     
+    binding.pry
+    
     while column_index < src[row_index].length do
       if src[row_index][column_index] < daily_low
         daily_low = src[row_index][column_index]
